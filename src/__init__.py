@@ -16,6 +16,7 @@ from .embeddings import (
     _mock_embed,
 )
 from .models import Document
+from .sliding_chunker import CustomChunker
 from .store import EmbeddingStore
 
 __all__ = [
@@ -24,6 +25,7 @@ __all__ = [
     "SentenceChunker",
     "RecursiveChunker",
     "ChunkingStrategyComparator",
+    "CustomChunker",
     "compute_similarity",
     "EmbeddingStore",
     "KnowledgeBaseAgent",
